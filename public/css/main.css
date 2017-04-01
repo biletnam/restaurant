@@ -1,0 +1,422 @@
+@import url(reset.css);
+
+a {
+    color: #f7f7f7;
+}
+
+a:hover {
+    color: #9D9D9D;
+}
+
+h4 {
+    padding-top: 13px;
+    color: #171F2C;
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Homenaje', sans-serif;
+    background: #f7f7f7;
+}
+
+.dark {
+    background: #171F2C;
+}
+
+hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #eee; /* Цвет линии для остальных браузеров */
+    background-color: #eee; /* Цвет линии для браузера Firefox и Opera */
+    width: 100%;
+    height: 1px; /* Толщина линии */
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+header {
+    color: #f7f7f7;
+    width: 100%;
+    height: 270px;
+}
+
+header div.row {
+    padding-top: 20px;
+}
+
+div.category_menu div.row {
+    height: 88px !important;
+    background-color: #fff;
+}
+
+.filter-cats{
+    margin-bottom: 0;
+    padding: 20px 10px;
+}
+
+.filter-cats li{
+    float: left;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    border: 1px solid #bebebe;
+}
+
+.filter-cats li a{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #303030;
+    text-transform: uppercase;
+    padding: 14px 65px 14px;
+}
+
+.product{
+    margin-bottom: 40px;
+    color: #303030;
+}
+
+.wrap-product{
+    padding-top: 25px;
+    padding-bottom: 45px;
+    background-color: #fff;
+}
+
+.wrap-product a{
+    color: #777;
+}
+
+.wrap-product a:hover{
+    color: #333;
+}
+
+.wrap-product hr{
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #eee; /* Цвет линии для остальных браузеров */
+    background-color: #eee; /* Цвет линии для браузера Firefox и Opera */
+    width: 100%;
+    height: 1px; /* Толщина линии */
+}
+
+.ingredients{
+    font-size: 14px;
+    padding: 20px 40px 30px;
+}
+
+.price {
+    border-top: 4px solid #333;
+    padding-top: 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.price span{
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color:#fff;
+    padding: 10px 30px;
+    background-color: #333;
+}
+
+.name {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 20px 24% 0;
+    border-bottom: 1px solid #333;
+    min-height: 100px;
+}
+
+.img a{
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding: 0 25px 25px;
+    box-shadow: 0 4px 4px 0 #e1e1e1;
+    color: #303030;
+}
+
+.img img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.rotate-container {
+    perspective: 700;
+}
+
+.rotate {
+    transition: all 0.6s ease;
+    transform-style: preserve-3d;
+}
+
+.rotate:hover {
+    transform: rotateY(180deg);
+}
+
+header div.row h1 {
+    text-align: center;
+    font-size: 90px;
+    letter-spacing: 5px;
+}
+
+header div.row p {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+#wraper h2 {
+    padding: 40px 0 0 20px;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+#wraper {
+  min-height: 400px;
+}
+
+p.text {
+    font-family: 'Open Sans', sans-serif;
+    padding: 40px 0 30px 0;
+    font-size: 20px;
+}
+
+#text1 {
+    min-width: 400px;
+}
+
+#photo1 {
+    max-width: 700px;
+    min-width: 400px;
+    background-image: url(../image/1.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    height: 450px;
+}
+
+div.bg {
+    text-align: center;
+    width: 200px;
+    height: 40px;
+}
+
+div.bg p {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#wraper div.dark {
+    text-align: center;
+    color: #f7f7f7;
+}
+
+#wraper div.dark h3 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding: 30px 0 30px 0;
+}
+
+#photo2, #photo3, #photo4, #photo5 {
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px -5px rgba(75, 75, 75, 0.75);
+    overflow: hidden;
+}
+
+#photo2 {
+    background-image: url(../image/2_1.jpg);
+}
+
+#photo2:hover p, #photo3:hover p, #photo4:hover p, #photo5:hover p {
+    opacity: 1;
+    line-height: 2;
+}
+
+#photo2:hover {
+    background: url(../image/2_2.jpg);
+}
+
+#photo2:hover .line-opacity, .rotate-container p, #photo3:hover .line-opacity, #photo4:hover .line-opacity, #photo5:hover .line-opacity{
+    opacity: 0;
+}
+
+#photo3 {
+    background-image: url(../image/3_1.jpg);
+}
+
+#photo3:hover {
+    background: url(../image/3_2.jpg);
+}
+
+#photo4 {
+    background-image: url(../image/4_1.jpg);
+}
+
+#photo4:hover {
+    background: url(../image/4_2.jpg);
+}
+
+#photo5 {
+    background-image: url(../image/5_1.jpg);
+}
+
+#photo5:hover {
+    background: url(../image/5_2.jpg);
+}
+
+.line-opacity {
+    width: 200px;
+    height: 50px;
+    opacity: 0.75;
+    background: #d7d7d7;
+    border-radius: 3px;
+    position: relative;
+    top: 25px;
+    left: -3px;
+}
+
+#distance {
+    height: 60px;
+}
+
+#map {
+    width: 100%;
+    min-height: 700px;
+}
+
+footer li {
+    color: #f7f7f7;
+    font-size: 18px;
+}
+
+footer div.dark h4 {
+    color: #f7f7f7;
+}
+
+#photo6, #photo7, #photo8 {
+    width: 75px;
+    height: 75px;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+}
+
+#photo6 {
+    background-image: url(../image/6.png);
+}
+
+#photo7 {
+    background-image: url(../image/7.jpg);
+}
+
+#photo8 {
+    background-image: url(../image/8.png);
+}
+
+.up {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background: #171F2C;
+    opacity: 0.5;
+    background-image: url(../image/up.png);
+    background-repeat: no-repeat;
+}
+
+#social {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    width: 50px;
+    height: 220px;
+}
+
+.vk {
+    position: absolute;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../image/vk.png);
+    background-repeat: no-repeat;
+}
+
+.fb {
+    position: absolute;
+    top: 55px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../image/fb.png);
+    background-repeat: no-repeat;
+}
+
+.instagram {
+    position: absolute;
+    top: 110px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../image/instagram.png);
+    background-repeat: no-repeat;
+}
+
+.geometria {
+    position: absolute;
+    top: 165px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../image/geometria.png);
+    background-repeat: no-repeat;
+}
+
+.title {
+  /* чтобы линии не выходили за ширину блока заголовка */
+  overflow: hidden;
+}
+.title:before,
+.title:after {
+  content: '';
+
+  /* делаем линию строчно-блочной */
+  display: inline-block;
+
+  /* выравниваем вертикально по середине */
+  vertical-align: middle;
+
+  /* не позволяем ширине превысить 100% (будет добавлен бордюр) */
+  box-sizing: border-box;
+
+  /* установка ширины в 100% делает линию равной ширине тега заголовка
+  ** благодаря этому линия заполнит все свободное пространство
+  ** слева и справа от текста
+  */
+  width: 100%;
+  height: 2px;
+  background: #ffffff;
+
+  /* добавляем к линии левый и правый бордюр цветом основного фона заголовка
+  ** благодаря этому создается нужный отступ между линиями и текстом
+  */
+  border: solid #ffffff;
+  border-width: 0 10px;
+}
+.title:before {
+  /* смещаем левую линию влево отрицательным отступом, равным 100% ширины
+  ** благодаря этому линия встает слева от текста
+  */
+  margin-left: -100%;
+  margin-right: 5px;
+}
+.title:after {
+  /* смещаем правую линию вправо отрицательным отступом, равным 100% ширины
+  ** благодаря этому линия встает справа от текста
+  */
+  margin-right: -100%;
+  margin-left: 5px;
+}
